@@ -1,14 +1,28 @@
-# Purpose of this project
-This project collected some usesful SQL query scripts that can be used in SAP S/4 HANA DBACOCOPIT.
+```markdown
+A collection of commonly used SQL queries for SAP S/4HANA DBACOCKPIT.
 
-# How to access DBACOCKPIT
-DBACOCKPIT is a T-code in SAP.
-You need your system admin to assign it in your user role.
+# Purpose
 
-# How to use SQL in SAP
-When you opened your DBACOCKPIT in SAP.
-Select Diagnosis > SQL Editor (the path might be different based on S/4 HANA version).
+This repository contains a collection of useful SQL query scripts for SAP S/4HANA DBACOCKPIT. The scripts are intended to help SAP consultants, developers, and administrators quickly retrieve system and business information.
 
-# Attention when using SQL in SAP
-SAP SQL input form does not support comment, you need to cleansing them before commit in SAP.
-SAP does not provide input hint like other IDES.
+# Accessing DBACOCKPIT
+
+DBACOCKPIT is an SAP transaction code (T-code). To use it, your SAP administrator must grant your user the required authorization.
+
+# Using the SQL Editor
+
+Open **DBACOCKPIT**, then navigate to:
+
+**Diagnosis → SQL Editor**
+
+> **Note:** The navigation path may vary depending on your SAP S/4HANA release and database version.
+
+# Notes
+
+- The SQL Editor in DBACOCKPIT does not support SQL comments. Remove all comments before executing a query.
+- The SQL Editor does not provide features commonly available in modern IDEs, such as syntax highlighting, auto-completion, or code suggestions.
+
+# Privacy
+
+All SQL scripts in this repository have been tested in a production SAP environment. Any sensitive information has been removed or anonymized before publication, including material numbers, company codes, plant IDs, organizational data, and other confidential business information.
+```
